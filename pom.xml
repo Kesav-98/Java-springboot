@@ -27,6 +27,13 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/Kesav-98/Java-springboot</url>
+    </repository>
+</distributionManagement>
+
 
     <build>
     	<finalName>docker-java-app-example</finalName>
